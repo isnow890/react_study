@@ -1,0 +1,25 @@
+import React, { Component } from "react";
+
+// toc -> table of contents
+
+class TOC extends Component {
+    render() {
+      return (
+        <nav>
+          <ul>
+            <li>
+              <a href="1.html">html</a>
+            </li>
+            <li>
+              <a href="2.html">css</a>
+            </li>
+            <li>
+              <a href="3.html">js</a>
+            </li>
+          </ul>
+        </nav>
+      );
+    }
+  }
+
+  export default TOC;
