@@ -3,7 +3,9 @@ import React, { Component } from "react";
 // toc -> table of contents
 
 class TOC extends Component {
+    
     render() {
+        console.log('TOC render');
         let lists=[];
         let data = this.props.data;
         let i=0;
